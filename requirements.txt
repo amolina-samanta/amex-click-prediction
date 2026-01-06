@@ -1,0 +1,27 @@
+# Core Data Science Libraries
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+xgboost>=2.0.0
+catboost>=1.2.0
+
+# Data Storage
+pyarrow>=12.0.0  # For parquet file support
+
+# Utilities
+joblib>=1.3.0
+
+# Jupyter (if running locally)
+jupyter>=1.0.0
+notebook>=7.0.0
+
+# Visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Google Colab specific (only needed if using Colab)
+# google-colab
