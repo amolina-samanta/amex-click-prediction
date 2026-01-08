@@ -23,6 +23,7 @@ amex-click-prediction/
 │   └── offer_metadata.parquet
 │
 ├── requirements.txt
+├── data_dictionary.csv
 ├── .gitignore
 └── README.md
 ```
