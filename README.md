@@ -11,10 +11,9 @@ This project implements a binary classification model to predict whether users w
 ```
 amex-click-prediction/
 │
-├── notebooks/
-│   ├── Amex2.ipynb                    # Data preprocessing and feature engineering
-│   ├── Amex_lgbm_w_PCA.ipynb         # LightGBM model with PCA
-│   └── Amex_New.ipynb                 # Ensemble model training (XGBoost, LightGBM, CatBoost)
+├── Amex2.ipynb                    # Data preprocessing and feature engineering
+├── Amex_lgbm_w_PCA.ipynb         # LightGBM model with PCA
+└── Amex_New.ipynb                 # Ensemble model training (XGBoost, LightGBM, CatBoost)
 │
 ├── data/                              # Data directory (not included in repo)
 │   ├── train_data.parquet
@@ -22,10 +21,6 @@ amex-click-prediction/
 │   ├── add_event.parquet
 │   ├── add_trans.parquet
 │   └── offer_metadata.parquet
-│
-├── models/                            # Saved model files
-├── oof_preds/                         # Out-of-fold predictions
-├── submissions/                       # Generated submission files
 │
 ├── requirements.txt
 ├── .gitignore
