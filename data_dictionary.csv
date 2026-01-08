@@ -1,0 +1,373 @@
+masked_column,Description,Type
+id1,Primary Key(masked),Key
+id2,Customer ID (masked),-
+id3,Offer ID,Categorical
+id4,Event timestamp,Numerical
+id5,Event Date,Numerical
+y,Dependent Variable,Label
+f1, Interest score of a customer with intrst_id =81-carrental-cars,Numerical
+f2, Interest score of a customer with intrst_id =90-coffee-coffee,Numerical
+f3, Interest score of a customer with intrst_id =281-shipping-b2b,Numerical
+f4, Interest score of a customer with intrst_id =199-photography-hobby,Numerical
+f5, Interest score of a customer with intrst_id =259-warehouse-b2b,Numerical
+f6, Interest score of a customer with intrst_id =285-construction-b2b,Numerical
+f7, Interest score of a customer with intrst_id =266-homefurnishing-furniture,Numerical
+f8, Interest score of a customer with intrst_id =216-restaurant_non_qsr-restaurant,Numerical
+f9, Interest score of a customer with intrst_id =3-airlines-airlines,Numerical
+f10, Interest score of a customer with intrst_id =283-professional_service-b2b,Numerical
+f11, Interest score of a customer with intrst_id =108 -electronics-electronics,Numerical
+f12, Interest score of a customer with intrst_id =138-homeimprovement-hobby,Numerical
+f13,Count of distinct page categories a customer has visited in the last 30 days,Numerical
+f14,Whether a customer has visited Redemption page in the last 30 days,Numerical
+f15,Whether a customer has visited MGM page in the last 30 days,Numerical
+f16,Whether a customer has visited MR page in the last 30 days,Numerical
+f17,Whether a customer has visited page_acq in the last 30 days,Numerical
+f18,Whether a customer has visited travel page in the last 30 days,Numerical
+f19,Whether a customer has visited Rewards page in the last 30 days,Numerical
+f20,Whether a customer has visited Servicing page in the last 30 days,Numerical
+f21,Whether a customer has visited page_assist in the last 30 days,Numerical
+f22,Count of distinct channels a customer has used to logon to MYCA in the last 30 days,Numerical
+f23,Whether a customer has used myca_app to logon to MYCA in the last 30 days,Numerical
+f24,Whether a customer has used myca_ap2 to logon to MYCA in the last 30 days,Numerical
+f25,Whether a customer has used myca_bwa to logon to MYCA in the last 30 days,Numerical
+f26,Whether a customer has used myca_brs to logon to MYCA in the last 30 days,Numerical
+f27,Whether a customer has used myca_web to logon to MYCA in the last 30 days,Numerical
+f28,Cumulative impressions (with decaying weights for impressions in the past) of a CM for an OET offer_id in the last 30 days ,Numerical
+f29,Cumulative clicks (with decaying weights for clicks in the past) of a CM for an OET offer_id in the last 30 days ,Numerical
+f30,Cumulative impressions (with decaying weights for impressions in the past) of a cust_xref_id for a merchant offer in the last 30 days ,Numerical
+f31,Cumulative clicks (with decaying weights for clicks in the past) of a cust_xref_id for a Merchant offer in the last 30 days ,Numerical
+f32,Number of successfully sent emails in the last 30 days for each CM,Numerical
+f33,Number of emails clicked on in the last 30 days,Numerical
+f34,Number of emails opted out of in the last 30 days for each CM,Numerical
+f35,"Number of clicks in the last 30 days when event_type_in in 'CLICK_SERVICELINK','ENROLL_CLICK','CLICK_FOOTERLINK','CLICK_MARKETING'",Numerical
+f36,Number of calls on IVR in the last 90 days,Numerical
+f37,Call Duration in seconds associated with the inbound call in the last 90 days,Numerical
+f38,Number of successfully sent direct emails in the last 180 days,Numerical
+f39,Spend in Lifestyle in the last 3 months,Numerical
+f40,Spend in Electronics in the last 3 months,Numerical
+f41,Spend in Restaurant in the last 3 months,Numerical
+f42,Membership level,Categorical
+f43,Current account mile balance,Numerical
+f44,Miles Ptype1,Numerical
+f45,Total number of segments 36 months All flights DL and OA,Numerical
+f46,YTD MQM MILES: IF 0 THEN NOTHING  ELSE MEDQUALYTDBALANCE This is number of elite segments customer flew on DL or OA to qualifiy for elite status,Numerical
+f47,The number of miles Member has available to use for Awards,Numerical
+f48,Digit to represent Total DL Flights,Categorical
+f49,Miles Ptype2,Numerical
+f50,Account Creation Indicator,Categorical
+f51,Number of days between Elite effective date and rollup date,Numerical
+f52,Active Part y1,Categorical
+f53,Value assigned to member 1=lowest  5=highest,Categorical
+f54,Honors enrollees with Stay Activity within the last 12 months = A,Categorical
+f55,HG Vacation Club,Categorical
+f56,H Code Tier,Categorical
+f57,H Promus Indicator = A  H  P  or Z,Categorical
+f58,Number of days between a member's enrollment in Loyalty Program and rollup date,Numerical
+f59,Total time spent on all pages in the last 30 days,Numerical
+f60,Total time spent in |AMEX|ACQ| page in the last 30 days,Numerical
+f61,Total time spent in |AMEX|LOY| page in the last 30 days,Numerical
+f62,Total time spent in |ESTATEMENT| page in the last 30 days,Numerical
+f63,Total time spent  in |MR| page in the last 30 days,Numerical
+f64,Total time spent in |OCE| page in the last 30 days,Numerical
+f65,Total time spent in |TRAVEL| page in the last 30 days,Numerical
+f66,Total time spent  in |PREPAID|GIFTCARD| page in the last 30 days,Numerical
+f67,Total time spent on pages NOT IN ANY OF THE ABOVE ONES in the last 30 days,Numerical
+f68,Total time spent on all pages in the last 180 days,Numerical
+f69,Total time spent on |AMEX|ACQ| page  in the last 180 days,Numerical
+f70,Total time spent in |AMEX|LOY| page in the last 180 days,Numerical
+f71,Total time spent in |ESTATEMENT| page in the last 180 days,Numerical
+f72,Total time spent in |MR|page in the last 180 days,Numerical
+f73,Total time spent when in |OCE| page in the last 180 days,Numerical
+f74,Total time spent when in Travel page in the last 180 days,Numerical
+f75,Total time spent in |PREPAID|GIFTCARD| page in the last 180 days,Numerical
+f76,Total time spent in pages NOT IN ANY OF THE ABOVE ONES in the last 180 days,Numerical
+f77,Ratio of total pages viewed in last 30 days to total pages viewed last 180 days,Numerical
+f78,No. of pages viewed ratio variable,Numerical
+f79,Ratio of no of times LOY page is viewed in last 30 days to LOY page viewed in last 180 days,Numerical
+f80,Ratio of no of times estatement page is viewed in last 30 days to estatement page viewed in last 180 days,Numerical
+f81,No. of pages viewed ratio variable,Numerical
+f82,Ratio of no of times OCE page is viewed in last 30 days to OCE page viewed in last 180 days,Numerical
+f83,Ratio of no of times Travel page is viewed in last 30 days to Travel page viewed in last 180 days,Numerical
+f84,Ratio of no of times prepaid page is viewed in last 30 days to prepaid page viewed in last 180 days,Numerical
+f85,No of pages viewed ratio variable,Numerical
+f86,Ratio of number of views on Acquisition page to total pages viewed  last 180 days,Numerical
+f87,Ratio of number of views on page LOY to total pages viewed  last 180 days,Numerical
+f88,Ratio of no of times estatement page is viewed to total pages viewed in last 180 days,Numerical
+f89,No. of pages viewed ratio variable,Numerical
+f90,Ratio of number of views on OCE page to total pages viewed  last 180 days,Numerical
+f91,Ratio of no of times travel page is viewed to total pages viewed in last 180 days,Numerical
+f92,Ratio of no of times prepaid page is viewed to total pages viewed in last 180 days,Numerical
+f93,Ratio of number of views on other pages to total pages viewed  last 180 days,Numerical
+f94,If offer type Rewards then impressions in last 180 days,Numerical
+f95,If offer type benefit awareness then impressions  in last 180 days,Numerical
+f96,If offer type Acquisition-Others then impressions in last 180 days,Numerical
+f97,If offer type Acquisition-MGM then impressions in last 180 days,Numerical
+f98,If offer type Loyalty then impressions in last 180 days,Numerical
+f99,If offer type Lending/TLI then impressions in last 180 days,Numerical
+f100,For Other non-merchant offer types impressions in last 180 days,Numerical
+f101,If offer type Servicing then impressions in last 180 days,Numerical
+f102,If offer type Insurance then impressions in last 180 days,Numerical
+f103,Total impressions in all non-merchant categories for a CM in the last 180 days,Numerical
+f104,If offer type Rewards then ctr in last 180 days,Numerical
+f105,If offer type benefit awareness then ctr in last 180 days,Numerical
+f106,If offer type Acquisition-Others then ctr in last 180 days,Numerical
+f107,If offer type Acquisition-MGM then ctr in last 180 days,Numerical
+f108,If offer type Loyalty then ctr in last 180 days,Numerical
+f109,If offer type Lending/TLI then ctr in last 180 days,Numerical
+f110,Ctr in last 180 days for other non merchant offer types,Numerical
+f111,If offer type Servicing then ctr in last 180 days,Numerical
+f112,If offer type Insurance then ctr in last 180 days,Numerical
+f113,Total ctr for all non-merchant categories in the last 180 days,Numerical
+f114,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type Rewards,Numerical
+f115,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type benefit awareness,Numerical
+f116,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type Acquisition-Others,Numerical
+f117,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type  Acquisition-MGM,Numerical
+f118,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type Loyalty,Numerical
+f119,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type Lending/TLI,Numerical
+f120,Ratio of ctr in the last 90 days to the ctr in last 180 days for Other non-merchant offer types,Numerical
+f121,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type Servicing,Numerical
+f122,Ratio of ctr in the last 90 days to the ctr in last 180 days for offer type Insurance,Numerical
+f123,Number of clicks for category dining in last 60 days,Numerical
+f124,Number of clicks for category entertainment in last 60 days,Numerical
+f125,Number of clicks for category shopping in last 60 days,Numerical
+f126,Number of clicks for category services in last 60 days,Numerical
+f127,Number of clicks for category  services in last 60 days,Numerical
+f128,Number of clicks for category business expenses in last 60 days,Numerical
+f129,Number of clicks for category retail in last 60 days,Numerical
+f130,CTR in last 60 days  for offer type dining,Numerical
+f131,CTR in last 60 days  for offer type entertainment,Numerical
+f132,CTR in last 60 days for offer type shopping,Numerical
+f133,CTR in last 60 days  for offer type travel,Numerical
+f134,CTR in last 60 days  for offer type servicing,Numerical
+f135,CTR for last 60 days  for offer type business expenses,Numerical
+f136,CTR in last 60 days for offer type retail,Numerical
+f137,CTR in last 60 days for all merchant offer types,Numerical
+f138,CTR in last 30 days for all merchant offer types,Numerical
+f139,Ratio of ctr in last 30 days to ctr in last 60 days,Numerical
+f140,Ratio of clicks on dining offers to clicks on all merchant offers in the last 60 days,Numerical
+f141,Ratio of clicks on entertainment offers to clicks on all merchant offers in the last 60 days,Numerical
+f142,Ratio of clicks on travel offers to clicks on all merchant offers in the last 60 days,Numerical
+f143,Ratio of clicks on services offers to clicks on all merchant offers in the last 60 days,Numerical
+f144,Ratio of clicks on business expenses offers to clicks on all merchant offers in the last 60 days,Numerical
+f145,Ratio of clicks on retail offers to clicks on all merchant offers in the last 60 days,Numerical
+f146,No. of impressions for a CM in the last 14 days where past impressions get decaying weights,Numerical
+f147,No of clicks for a CM in the last 30 days where past clicks get decaying weights,Numerical
+f148,No of impressions for a CM in the last 30 days where impressions days get decaying weights,Numerical
+f149,No of clicks for a CM in the last 14 days where past clicks get decaying weights,Numerical
+f150,Ratio of decaying clicks to decaying impressions in last 30 days for merchant offers,Numerical
+f151,Ratio of sum_past_decay_click_doe_14 to sum_past_decay_imp_doe_14,Numerical
+f152,Debit amount in Airline category for last 30 days,Numerical
+f153,Debit amount in entertainment category for last 30 days,Numerical
+f154,Debit amount in Insurance/Financial category for last 30 days,Numerical
+f155,Debit amount in Oil & Gas category in last 30 days,Numerical
+f156,Debit amount in Lodging category for last 30 days,Numerical
+f157,Debit amount in Restaurant category for last 30 days,Numerical
+f158,Debit amount in Retail category for last 30 days,Numerical
+f159,"Debit amount in Travel, Transportation and Auto Rental category for last 30 days",Numerical
+f160,Debit amount in Utilities category for last 30 days,Numerical
+f161,Debit amount in Communication category for last 30 days,Numerical
+f162,Debit amount for Everything else for last 30 days,Numerical
+f163,Debit amount in Airline category for last 180 days,Numerical
+f164,Debit amount in entertainment category for last 180 days,Numerical
+f165,Debit amount in Insurance/Financial category for last 180 days,Numerical
+f166,Debit amount in Oil & Gas category in last 180 days,Numerical
+f167,Debit amount in Lodging category for last 180 days,Numerical
+f168,context variable fetched in real time where this is Number of seconds after 00:00 hrs ,Numerical
+f169,Debit amount in Retail category for last 180 days,Numerical
+f170,"Debit amount in Travel, Transportation and Auto Rental category for last 180 days",Numerical
+f171,Debit amount in Utilities category for last 180 days,Numerical
+f172,Debit amount in Communication category for last 180 days,Numerical
+f173,Debit amount for Everything else for last 180 days,Numerical
+f174,Number of debit transactions in Airline category for last 180 days,Numerical
+f175,Number of debit transactions in entertainment category for last 180 days,Numerical
+f176,Number of debit transactions in Insurance/Financial category for last 180 days,Numerical
+f177,Number of debit transactions in Oil & Gas category in last 180 days,Numerical
+f178,Number of debit transactions in Lodging category for last 180 days,Numerical
+f179,Number of debit transactions in Restaurant category for last 180 days,Numerical
+f180,Number of debit transactions in Retail category for last 180 days,Numerical
+f181,"Number of debit transactions in Travel, Transportation and Auto Rental category for last 180 days",Numerical
+f182,Number of debit transactions in Utilities category for last 180 days,Numerical
+f183,Number of debit transactions in Communication category for last 180 days,Numerical
+f184,Number of debit transactions for Everything else for last 180 days,Numerical
+f185,Total number of debit transactons in the last 30 days from rollup_dt ,Numerical
+f186,Total number of debit transactons in the last 180 days,Numerical
+f187,Share of the number of airline debit transactions in total debit transactions in the last 30 days,Numerical
+f188,Share of the number of entertainment debit transactions in total debit transactions in the last 30 days,Numerical
+f189,Share of the number of financial debit transactions in total debit transactions in the last 30 days,Numerical
+f190,Share of the number of oil and gas debit transactions in total debit transactions in the last 30 days,Numerical
+f191,Share of the number of lodging debit transactions in total debit transactions in the last 30 days,Numerical
+f192,Share of the number of restaurant debit transactions in total debit transactions in the last 30 days,Numerical
+f193,Share of the number of retail debit transactions in total debit transactions in the last 30 days,Numerical
+f194,Share of the number of travel debit transactions in total debit transactions in the last 30 days,Numerical
+f195,Share of the number of utility debit transactions in total debit transactions in the last 30 days,Numerical
+f196,Share of the number of communication debit transactions in total debit transactions in the last 30 days,Numerical
+f197,Share of debit transactions for all other categories to the total number of debit transactions in the last 30 days,Numerical
+f198,Ratio of number of debit transactions in last 30 days to number of debit transactions in the last 180 days,Numerical
+f199,No of clicks for a CM in the last 30 days where past clicks get decaying weights,Numerical
+f200,No of impressions for a CM in the last 30 days where past impressions get decaying weights,Numerical
+f201,No of clicks for a CM in the last 14 days where past clicks get decaying weights,Numerical
+f202,No. of impressions for a CM in the last 14 days where past impressions get decaying weights,Numerical
+f203,Ratio of decaying clicks to decaying impressions in last 30 days for non-merchant offer,Numerical
+f204,Ratio of decaying clicks to decaying impressions in last 14 days for merchant offers,Numerical
+f205,Whether the CM has clicked on the offer in the last 3 days,Numerical
+f206,Number of clicks in the past 30 days,Numerical
+f207,Number of impressions in the last 30 days,Numerical
+f208,CM clicks on an offer with same merchant in first 2 days of that offer,Numerical
+f209,CM clicks on an offer with same merchant in first 7 days of that offer,Numerical
+f210,CM Clicks on an offer by same merchant ,Numerical
+f211,CM impressions on an offer with same merchant in first 7 days of that offer,Numerical
+f212,CM impressions on an offer with same merchant in first 14 days of that offer,Numerical
+f213,"For offers with same merchant, number of Top of Chain Service Establishment Numbers",Numerical
+f214,Difference between offer start date and offer_match_end on an offer with same merchant,Numerical
+f215,Offer duration on offers with same merchant,Numerical
+f216,Ratio of difference between offer start and offer end date to the difference of offer_match_start and offer_match_end,Numerical
+f217,Min Spend required to qualify for the DOE Offer,Numerical
+f376,Discount rate on the merchant offer,Numerical
+f219,Value of discount on the merchant offer,Numerical
+f220,Number of MR points,Numerical
+f221,MR points per dollar,Numerical
+f222,Discount value per dollar,Numerical
+f223,Difference between offer duration display start timestamp and rollup date,Numerical
+f224,Difference between offer duration end timestamp and rollup date,Numerical
+f225,Difference between offer duration display start and offer duration end timestamp,Numerical
+f226,Offer category Business,One hot encoded
+f227,Offer category dining,One hot encoded
+f228,Offer category entertainment,One hot encoded
+f229,Offer category retail,One hot encoded
+f230,Offer category services,One hot encoded
+f231,Offer category shopping,One hot encoded
+f232,Offer category travel,One hot encoded
+f233,Offer sub category Activities and leisure,One hot encoded
+f234,Offer sub category advertising ,One hot encoded
+f235,Offer sub category american ,One hot encoded
+f236,Offer sub category animal services,One hot encoded
+f237,Offer sub category apparel ,One hot encoded
+f238,Offer sub category argentinean ,One hot encoded
+f239,Offer sub category asian ,One hot encoded
+f240,Offer sub category australian ,One hot encoded
+f241,Offer sub category auto fuel,One hot encoded
+f242,Offer sub category auto rental,One hot encoded
+f243,Offer sub category auto sales,One hot encoded
+f244,Offer sub category auto services,One hot encoded
+f245,Offer sub category automotive ,One hot encoded
+f246,Offer sub category bar night,One hot encoded
+f247,Offer sub category books music,One hot encoded
+f248,Offer sub category british ,One hot encoded
+f249,Offer sub category carry out,One hot encoded
+f250,Offer sub category casual ,One hot encoded
+f251,Offer sub category chinese ,One hot encoded
+f252,Offer sub category clothing ,One hot encoded
+f253,Offer sub category coffee desserts,One hot encoded
+f254,Offer sub category communications ,One hot encoded
+f255,Offer sub category computer services,One hot encoded
+f256,Offer sub category constructions ,One hot encoded
+f257,Offer sub category cruises ,One hot encoded
+f258,Offer sub category cuisin ,One hot encoded
+f259,Offer sub category delis ,One hot encoded
+f260,Offer sub category education ,One hot encoded
+f261,Offer sub category electronics ,One hot encoded
+f262,Offer sub category european ,One hot encoded
+f263,Offer sub category finance ,One hot encoded
+f264,Offer sub category food store,One hot encoded
+f265,Offer sub category food wine,One hot encoded
+f266,Offer sub category french ,One hot encoded
+f267,Offer sub category fusion ,One hot encoded
+f268,Offer sub category german ,One hot encoded
+f269,Offer sub category gifts ,One hot encoded
+f270,Offer sub category golf ,One hot encoded
+f271,Offer sub category greek ,One hot encoded
+f272,Offer sub category health care,One hot encoded
+f273,Offer sub category hobbies,One hot encoded
+f274,Offer sub category home furnishing,One hot encoded
+f275,Offer sub category home garden,One hot encoded
+f276,Offer sub category hotel resorts,One hot encoded
+f277,Offer sub category indian ,One hot encoded
+f278,Offer sub category italian ,One hot encoded
+f279,Offer sub category japanese ,One hot encoded
+f280,Offer sub category jewelry ,One hot encoded
+f281,Offer sub category mediterranean ,One hot encoded
+f282,Offer sub category mexican ,One hot encoded
+f283,Offer sub category office products,One hot encoded
+f284,Offer sub category office supplies,One hot encoded
+f285,Offer sub category other ,One hot encoded
+f286,Offer sub category other cuisine,One hot encoded
+f287,Offer sub category other services,One hot encoded
+f288,Offer sub category other shopping,One hot encoded
+f289,Offer sub category parking ,One hot encoded
+f290,Offer sub category parks zoos,One hot encoded
+f291,Offer sub category personal care,One hot encoded
+f292,Offer sub category printing ,One hot encoded
+f293,Offer sub category professional ,One hot encoded
+f294,Offer sub category real estate,One hot encoded
+f295,Offer sub category residential care,One hot encoded
+f296,Offer sub category restaurant ,One hot encoded
+f297,Offer sub category seafood ,One hot encoded
+f298,Offer sub category services ,One hot encoded
+f299,Offer sub category shipping services,One hot encoded
+f300,Offer sub category spanish ,One hot encoded
+f301,Offer sub category sports recreation,One hot encoded
+f302,Offer sub category steakhouse ,One hot encoded
+f303,Offer sub category thai ,One hot encoded
+f304,Offer sub category tour ,One hot encoded
+f305,Offer sub category transportation ,One hot encoded
+f306,Offer sub category travel agencies,One hot encoded
+f307,Offer sub category utilities ,One hot encoded
+f308,Offer sub category vegetarian ,One hot encoded
+f309,Offer sub category wholesale ,One hot encoded
+f310,Last 1 day CTR,Numerical
+f311,Last 3 days CTR,Numerical
+f312,CTR in Last 7 days,Numerical
+f313,Last 14 days CTR,Numerical
+f314,last 30 days CTR,Numerical
+f315,Clicks in last 1 day,Numerical
+f316,Clicks in last 3 days,Numerical
+f317,Clicks in last 7 days,Numerical
+f318,Clicks in last 14 days,Numerical
+f319,Clicks in last 30 days,Numerical
+f320,Impressions last 1 day,Numerical
+f321,Impressions last 3 days,Numerical
+f322,Impressions in last 7 days,Numerical
+f323,Impressions last 14 days,Numerical
+f324,Impressions last 30 days,Numerical
+f325,Ratio of ctr in last 1 day to ctr in last 3 days,Numerical
+f326,Ratio of ctr in last 3 days to ctr in last 7 days,Numerical
+f327,Ratio of ctr in last 7 days to ctr in last 14 days,Numerical
+f328,Ratio of ctr in last 14 days to ctr in last 30 days,Numerical
+f329,CTR ratio variable,Numerical
+f330,CTR ratio variable,Numerical
+f331,CTR ratio variable,Numerical
+f332,Redemption mode is Online,Numerical
+f333,Redemption mode is in-store,Numerical
+f334,Redemption mode is phone,Numerical
+f335,Coupon offers,Numerical
+f336,CTR in the last 1 day on an offer with same merchant,Numerical
+f337,CTR in the last 3 days on an offer with same merchant,Numerical
+f338,CTR in the last 7 days on an offer with same merchant,Numerical
+f339,CTR in the last 14 days on an offer with same merchant,Numerical
+f340,CTR in the last 30 days on an offer with same merchant,Numerical
+f341,CTR ratio variable for merchant offers,Numerical
+f342,CTR ratio variable for merchant offers,Numerical
+f343,CTR ratio variable for merchant offers,Numerical
+f344,CM impressions on an offer with same merchant in first 3 days of that offer,Numerical
+f345,CM impressions on an offer with same merchant in first 30 days of that offer,Numerical
+f346,CM impressions on an offer with same merchant,Numerical
+f347,Avg ctr of an offer,Numerical
+f348,No of impressions on the offer (in last 3 days),Numerical
+f349,"context variable fetched in real time where 1 for Monday, 2 for Tuesday,…………, 7 for Sunday",Categorical
+f350,context variable fetched in real time where this is Number of seconds after 00:00 hrs ,Numerical
+f351,Exponential Recovery on Age(Days since launch of offer),Numerical
+f352,Vertical Asymptote on Age,Numerical
+f353,Hyperbolic Function of Age ,Numerical
+f354,Depicts days since launch,Categorical
+f355,Decay of Click Through Rate in 1 Day,Numerical
+f356,Decay of Click Through Rate in 2 Day,Numerical
+f357,Decay of Click Through Rate in 7 Day,Numerical
+f358,Hyperbolic Function of Click Through Rate,Numerical
+f359,Financial hardship trigger scores for USCS customers,Numerical
+f360,Financial hardship trigger scores for GCS customers,Numerical
+f361,Total Impressions on the incoming offer's industry for the given CM in past 180 days,Numerical
+f362,Total clicks on the incoming offer's industry for the given CM in past 180 days,Numerical
+f363,CTR on the incoming offer's industry for the given CM in past 180 days,Numerical
+f364,CM’s past 6 moth impressions on relevant offers,Numerical
+f365,CM’s past 6 moth clicks on relevant offers,Numerical
+f366,CM’s past 6 moth CTR on relevant offers,Numerical
